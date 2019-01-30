@@ -1,7 +1,16 @@
 #### Create a repo mysource, add some files, clone it locally and then push it to  new repo called mytarget
   * Create a new repo at github.
-  * Clone the repo to your local machine.
-  * git remote rename origin upstream
-  * git remote add origin URL_TO_GITHUB_REPO
-  * git push origin master
-  * Now you can work with it just like any other github repo. To pull in patches from upstream, simply run git pull upstream master && git push origin master.
+  * Create second repo
+  * Clone 1st repo (under 1st repo folder, create some files) git clone in local (copy source path and clone)
+  * Git remote -v (will take origin by default)
+  * git remote add target(secondrepo) (copy target path)
+  * git remote -v
+  * git push target master
+  
+ #### Why use Git Fork
+ 
+
+#### Create a repo on github, create development branch, add some changes to development branch and then merge it with master
+
+
+#### Create a repo, changes the default branch from master to development
