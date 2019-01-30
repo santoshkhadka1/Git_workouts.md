@@ -7,10 +7,13 @@
   * git remote -v
   * git push target master
   
- #### Why use Git Fork
- 
+
 
 #### Create a repo on github, create development branch, add some changes to development branch and then merge it with master
-
+  * create branch called development
+  * create a pull request 
+  * pull request merged 
 
 #### Create a repo, changes the default branch from master to development
+  * on settings, go to branches change the default branch and make update.
+#### You can have Branch protection  rule 
