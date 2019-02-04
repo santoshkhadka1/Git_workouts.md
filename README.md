@@ -11,10 +11,26 @@
 
 #### Create a repo on github, create development branch, add some changes to development branch and then merge it with master
   * create branch called development
+  * make some changes in files
+  * Create base: master and compare with: development
   * create a pull request 
-  * pull request merged 
+  * pull request merged by master
 
 #### Create a repo, changes the default branch from master to development
+  * git branch development
   * on settings, go to branches change the default branch and make update.
 #### You can have Branch protection  rule 
-.
+#### Reset must be done within the same branch
+  * git log
+  * copy the commit id of unchanged version
+  * git (commit id) --hard (throws back to earlier place)
+#### Working with branches
+  * git branch development -- will create a development branch
+  * git checkout development -- you can now make some changes in development branch
+  * git add .
+  * git commit -m "made changes"
+  * git push -u origin master -- will push changes made in development to master
+  * git merge development -- will merge changes in development
+#### .gitignore
+  * you can keep files inside .gitignore and if you do git status, you will see only .gitignore 
+  * lets say you make abc.log, bcd.log and .gitignore; you can vi .gitignore and .*log inside it. You can see the files by ls but you only see .gitignore in git status. 
